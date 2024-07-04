@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+#gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#template {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+img {
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
